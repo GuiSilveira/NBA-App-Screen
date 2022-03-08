@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:wght@100;300;400&display=swap");
+
+:root {
+  --darker-grey: #c4c4c4;
+  --dark-grey: #bbbbbb;
+  --light-grey: #f7f7f7;
+  --dark-blue: #1d4289;
+  --dark-red: #c80f2e;
+
+  font-family: Poppins, sans-serif;
+  font-size: 10px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+}
+
+@media (min-width: 1024px) {
+  body {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+}
