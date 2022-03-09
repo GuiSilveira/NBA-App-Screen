@@ -119,36 +119,3 @@ main {
   flex-direction: row;
   justify-content: space-around;
 }
-
-footer {
-  background: white;
-}
-
-footer ul {
-  display: flex;
-  justify-content: space-around;
-  padding: 1.6rem 0;
-}
-
-footer ul li {
-  text-transform: uppercase;
-
-  font-size: 0.8rem;
-  line-height: 12px;
-  display: flex;
-  flex-direction: column;
-  font-weight: 400;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: var(--dark-grey);
-}
-
-footer ul li:first-child a {
-  color: var(--dark-red);
-}
-
-footer ul li img {
-  height: 2.3rem;
-}
