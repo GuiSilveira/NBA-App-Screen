@@ -59,10 +59,14 @@ footer ul li img {
   height: 2.3rem;
 }
 
+@media (min-width: 768px) {
+}
+
 @media (min-width: 1024px) {
   html {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: var(--dark-grey);
@@ -71,5 +75,9 @@ footer ul li img {
   body {
     max-width: 375px;
     max-height: 812px;
+  }
+
+  .background {
+    width: 375px;
   }
 }

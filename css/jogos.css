@@ -18,16 +18,14 @@ header {
 header div {
   display: inline-block;
   vertical-align: top;
-  margin-right: 140px;
-  margin-top: 20px;
-  height: 24px;
-  margin-left: 15px;
+  margin-right: 14rem;
+  margin-top: 2rem;
+  height: 2.4rem;
+  margin-left: 1.5rem;
 }
 
-header button {
-  border: none;
-  background: none;
-  cursor: pointer;
+header a {
+  text-decoration: none;
 }
 
 header h1 {
@@ -35,12 +33,12 @@ header h1 {
   font-size: 2.4rem;
   text-transform: uppercase;
   font-weight: 800;
-  margin-left: 23px;
+  margin-left: 2.3rem;
 }
 
 .logo-nba {
-  margin-top: 17.72px;
-  margin-right: 17px;
+  margin-top: 1.772rem;
+  margin-right: 1.7rem;
 }
 
 /* Main */
@@ -50,7 +48,7 @@ main {
 }
 
 main input {
-  height: 40px;
+  height: 4rem;
   padding: 0 1.5rem;
   border: 1px solid var(--dark-blue);
   border-radius: 4px;
