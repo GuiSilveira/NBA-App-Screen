@@ -44,6 +44,7 @@ footer ul li {
   display: flex;
   flex-direction: column;
   font-weight: 400;
+  text-align: center;
 }
 
 footer ul li a {
@@ -56,10 +57,25 @@ footer ul li:first-child a {
 }
 
 footer ul li img {
-  height: 2.3rem;
+  height: 1.8rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  html {
+    height: 100vh;
+  }
+
+  footer ul {
+    padding: 1rem;
+  }
+
+  footer ul li {
+    font-size: 1rem;
+    text-align: center;
+  }
+  footer ul li img {
+    height: 2rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -73,6 +89,7 @@ footer ul li img {
   }
 
   body {
+    width: 375px;
     max-width: 375px;
     max-height: 812px;
   }

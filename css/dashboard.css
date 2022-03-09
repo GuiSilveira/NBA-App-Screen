@@ -119,3 +119,59 @@ main {
   flex-direction: row;
   justify-content: space-around;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containers {
+    width: 90%;
+  }
+
+  .titulos {
+    font-size: 1.5rem;
+  }
+
+  .link-container a {
+    font-size: 1.2rem;
+  }
+
+  .jogos-do-dia img {
+    width: 10%;
+  }
+
+  .texto-interno h2 {
+    font-size: 1.3rem;
+  }
+
+  .texto-interno p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .containers.times .image-container {
+    justify-content: space-between;
+    height: 15rem;
+  }
+
+  .containers.times .image-container :nth-child(1) {
+    width: 10rem;
+  }
+
+  .selection li {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .containers.atletas .image-container li {
+    margin: 0 4rem;
+  }
+
+  .containers.atletas .image-container img {
+    width: 6rem;
+  }
+}
