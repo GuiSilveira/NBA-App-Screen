@@ -83,6 +83,7 @@ main {
   background: var(--darker-grey);
   border-radius: 50%;
   margin-left: 0.5rem;
+  cursor: pointer;
 }
 
 .selection :nth-child(2) {

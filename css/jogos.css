@@ -54,6 +54,7 @@ main input {
   border-radius: 4px;
   background: white;
   color: var(--dark-grey);
+  cursor: pointer;
 }
 
 main ul {
