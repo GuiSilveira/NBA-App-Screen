@@ -1,4 +1,4 @@
-# Frontend Mentor - Intro component with sign up form solution
+# NBA APP SCREEN
 
 My mentor João Júnior, on the Programa Desenvolve 2022 - Grupo Boticário, challenged me to build this web page so here is my sollution!
 
